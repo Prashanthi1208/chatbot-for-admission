@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chatbot for Admission</title>
+  <!-- Testimonial Swiper link -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <!-- Home, Placed, count, testimonials, Facts, Interaction, Chatbot CSS -->
+	<link rel="stylesheet" type="text/css" href="homestyle.css">
+  <!-- Chatbot css file link -->
+  <link rel="stylesheet" href="chatbotstyle.css">
+  <!-- footer css file link -->
+  <link rel="stylesheet" type="text/css" href="footer-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Header Section -->
+
+	<header>
+		<a href="#" class="logo">KIET<span>.</span> | KIET<span>+</span> | KIET<span>W</span></a>
+		<ul class="navigation">
+			<li><a href="#banner">Home</a></li>
+			<li><a href="#placements">Placements</a></li>
+			<li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#facts">Facts</a></li>
+      <li><a href="#interactions">Interaction</a></li>
+      <li><a href="#footer">Approach Us</a></li>
+      <li><a href="#placed"></a></li> 
+		</ul>
+	</header>
+
+<!--Home Page HTML Code -->
+	<section class="banner" id="banner">
+
+		<div class="content">
+			<h5>Always Choose Good</h5>
+			<h6>"The decisions made today determines how tomorrow will be."</h6>
+				<h6>Not every students gets the opportunity to nurture their tomorrow at KIET
+			</h6>
+			<a href="#admissions" class="btn">Enroll For KIET</a>
+		</div>
+	</section>
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', function(){
+      const header = document.querySelector('header');
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+  </script>
+
+<!-- Placements Module HTML Code -->
+  <section class="placements" id="placements">
+    <div class="company">
+      <h2 style="color:white"> Placements </h2>
+      <p style="text-align:center; color: white"> If you can Dream it, You can Do it..</p><br>
+      
+      <div class="img-area">
+        <div class="single-img"><img src="company/accenture.jpg" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/adp.png" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/capgemini.jpg" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/cognizant.png" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/deloitte.png" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/Full.png" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/hcl.png" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/infosys.jpg" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/savantis.png" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/tm.jpg" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/wipro.jpg" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/trianz.png" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/tcs.jpg" style="width:150px; height:150px"></div>
+        <div class="single-img"><img src="company/epam.png" style="width:150px; height:150px"></div>
+        <p><a href="#placed" style="color: white;"><b>Click here to see placed students count..</b></a></p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Placed Students Time Line HTML Code -->
+
+<section class="placed" id="placed">
+  <h1>City wise <span>Placed Students Count</span></h1>
+<br> 
+<div class="process-wrapper">
+<div id="progress-bar-container">
+  <ul>
+    <li class="step step01 active"><div class="step-inner">KAKINADA</div></li>
+    <li class="step step02"><div class="step-inner">RAJHAMUNDRY</div></li>
+    <li class="step step03"><div class="step-inner">SAMALAKOT</div></li>
+    <li class="step step04"><div class="step-inner">YANAM</div></li>
+    <li class="step step05"><div class="step-inner">RAMACHANDRAPURAM</div></li>
+  </ul>
+  
+  <div id="line">
+    <div id="line-progress"></div>
+  </div>
+</div>
+
+<div id="progress-content-section">
+  <div class="section-content discovery active">
+    <p>Accenture - 20 <br>
+      TCS - 2 <br>
+      Wipro - 10<br>
+      Infosys - 10<br>
+      Tech Mahindra - 25 <br>
+      DXC - 30<br>
+      Full Creative - 20<br>
+      Cognizant - 5 <br>
+      and many more..
+    </p>
+  </div>
+  
+  <div class="section-content strategy">
+    <p>
+      Coforge - 12 <br>
+      Wipro - 18<br>
+      Infosys - 11<br>
+      Tech Mahindra - 25 <br>
+      Accenture - 10 <br>
+      Eunimart - 1<br>
+      Hexaware - 10<br>
+      Capgemini - 10<br>
+      and many more
+    </p>
+  </div>
+  
+  <div class="section-content creative">
+    <p>Savantis - 20 <br>
+      Krify  - 25 <br>
+      PWC Technologies - 10<br>
+      TVS - 10<br>
+      Celbel Tech - 25 <br>
+      Surya Tech Solutions - 30<br>
+      TCS Ninja - 20<br>
+      Cognizant - 5<br>
+      and many more..
+    </p>
+  </div>
+  
+  <div class="section-content production">
+    <p>Coforge - 20 <br>
+      TCS Digital - 2 <br>
+      Wipro - 15<br>
+      DXC - 30<br>
+      TVS- 25 <br>
+      Infosys - 10<br>
+      Full Creative - 20<br>
+      Eunimart - 5 <br> 
+      and many more..
+    </p>
+  </div>
+  
+  <div class="section-content analysis">
+    <p>Tech Mahindra - 25 <br>
+      TCS - 2 <br>
+      Wipro - 10<br>
+      Full Creative - 20<br>
+      Infosys - 10<br>
+      Accenture - 20 <br>
+      DXC - 30<br>
+      Cognizant - 5<br>
+      and many more..
+    </p>  
+  </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+
+  $(".step").click( function() 
+  {
+    $(this).addClass("active").prevAll().addClass("active");
+    $(this).nextAll().removeClass("active");
+  });
+
+  $(".step01").click( function() 
+  {
+    $("#line-progress").css("width", "3%");
+    $(".discovery").addClass("active").siblings().removeClass("active");
+  });
+
+  $(".step02").click( function() 
+  {
+    $("#line-progress").css("width", "25%");
+    $(".strategy").addClass("active").siblings().removeClass("active");
+  });
+
+  $(".step03").click( function() 
+  {
+    $("#line-progress").css("width", "50%");
+    $(".creative").addClass("active").siblings().removeClass("active");
+  });
+
+  $(".step04").click( function() 
+  {
+    $("#line-progress").css("width", "75%");
+    $(".production").addClass("active").siblings().removeClass("active");
+  });
+
+  $(".step05").click( function() 
+  {
+    $("#line-progress").css("width", "100%");
+    $(".analysis").addClass("active").siblings().removeClass("active");
+  });
+
+</script>
+</section>
+
+
+
+
+  <!-- Testimonial Module HTML Code -->
+
+<section class="testimonials" id="testimonials">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>In KIET there are many opportunites are there to explore ourself and to known ourself better and it is a best platform to enhance your skills and showcase your skills. Proud to be a KIETIAN !..  
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/meher.jpg">
+                    </div>
+                    <h3>Meherunisa Shaik <br><span>Placed in Accenture</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>I loved the infrastructure of KIET. The events that I took part helped me to grow my confidence level. I would like to specially thank the placement cell for guiding me and providing me a good platform HCL for my career.
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/haritha.jpg">
+                    </div>
+                    <h3>Haritha Singavarapu <br><span>Placed in HCL</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>The College provides really good placement opportunities combined with many internship programs, seminars by expertise and other placement programs. Our college provides with facilities like library, labs with all modern equipment and good teachers, who use the latest technology to teach the students in digital classrooms.
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/vara.jpg">
+                    </div>
+                    <h3>Varalakshmi Thota <br><span>Placed in Wipro</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>During my four years of bachelor studies, I have gained the knowledge and skills that will help me develop my future career as an engineer. I am thankful to all the passionate teachers who were kind and well prepared for sharing their wisdom and experience with us. pround to be a KIETIAN !..
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/mary.jpg">
+                    </div>
+                    <h3>Mary Prasanthi Jagadam <br><span>Placed in Tech Mahindra</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>It gives me immense pleasure to say that I could be a part of KIET family. It helped me to grow both academically and as a person. The college gives us ample opportunities to project our skills, technical as well as artistic. It has state-of-the-art infrastructure.
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/madhavii.jpg">
+                    </div>
+                    <h3>Madhavi Alla <br><span>Placed in Accenture</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>Being a student of engineering is a challenge in itself. After joining KIET I realised that it is not going to be easy and I would have to work hard. This college provides you with opportunities to work on your skill sets like participating in competitions , cultural events and also with some sports activities.
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/geetha.jpg">
+                    </div>
+                    <h3>Geetha Santhoshi Vasireddy <br><span>Placed in TCS</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>KIET is a place where you can find an amalgamation of learning, fun, culture,  many such life preaching activities and also is a place where you are surrounded by positive and healthy environment all the time. Faculty is very supportive and encourages us to achieve our goal.
+
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/sowji.jpg">
+                    </div>
+                    <h3>Sowjanya Sripadam <br><span>Placed in Full Creative</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>KIET is a place where your voice is heard and your opinion matters. My knowledge and confidence has been boosted after coming here.Faculty is very supportive and they not only help you in academics but also in non- academic activities. Events organised at the institute helped me to grow and enhance my skills.
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/ishu.jpg">
+                    </div>
+                    <h3>Ishwarya Pilli <br><span>Placed in Coforge</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>Placement Department is one of the most versatile departments in the college. It not only attains at bringing most of the reputed companies for placements but also is competent at organizing various inter-college as well as intra-college events. I consider myself very lucky for being a part of KIET college.
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/vasanthi.jpg">
+                    </div>
+                    <h3>Krishna Vasanthi Ramakurthi <br><span>Placed in Capgemini</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="testimonial_img/quote.png" class="quote">
+                <div class="content">
+                  <p>Learning at KIET is fun,apart from academics, KIET has been a great support for students, focusing on their extra-curricular activities as well, providing opportunities in every field so that each student gets an opportunity to explore his/her capability.
+                  </p>
+                  <div class="details">
+                    <div class="imgBx">
+                      <img src="testimonial_img/suma.jpg">
+                    </div>
+                    <h3>Suma Gadiraju<br><span>Placed in Cognizant</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Testimonial Script-->
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2,
+          slideShadows: true,
+        },
+        loop: true,
+      });
+  </script>
+
+  <!-- Facts Module HTML Code  -->
+  <section class="facts" id="facts">
+    <link rel="stylesheet" href="factstyle.css">
+    <div class="heading" id="heading"> <h1>Facts that makes us Unique..! </h1></div>
+    <div class="container1">
+      <div class="card">
+        <div class="imgBx">
+          <img src="facts_images/Toastmasters.jpeg">
+        </div>
+        <div class="content">
+          <h2 style="color: rgb(219, 10, 91);"><b><u> Toastmasters Club </u></b></h2>
+          <p><b>Toastmasters is an international organization that operates clubs worldwide for the purpose of promoting
+            communication, and it is a place where you can prove your public speaking skills.
+            Toastmasters group is more kind of self help along with mentors all over the world.
+            It takes time to undrestand how beautifully it works but you need to be committed from yourside too.
+            It has well built structure to improve you public speaking and leadership skills.<br></b></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="facts_images/leadership.jpg">
+        </div>
+        <div class="content">
+          <h2 style="color: rgb(219, 10, 91);"><b><u>Leadership Activities</u></b></h2>
+          <p><b>KIET aim to not only educate their students and hand them a degree, but guide them to become leaders 
+          in their various fields. A good leader represents a great team. The main motive behind the Leader Activities 
+          is to take out the leadership ,qualities in the students.These type of activities can help to survive in
+          their respective fields after Graduation.KIET always supports students to become a good leader and to manage
+          the team and to learn the things that will help for their careers.</b></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="facts_images/kiot.jpg">
+        </div>
+        <div class="content">
+          <h2 style="color: rgb(219, 10, 91);"> <b><u>KIOT</u></b></h2>
+          <p><b>Industrial visits are an integral part of the college curriculum for professional degrees, 
+            during that students visit companies and get insight working evironment of company.It also provides 
+            an opportunity to experience how will be the real-time work culture. While a lot of theoretical knowledge 
+            is available in books, students get exposure only when they have industrial visits. The main reason behind 
+            this, it lets student to know things practically through interaction.</b></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="facts_images/internship.jpg">
+        </div>
+        <div class="content">
+          <h2 style="color: rgb(219, 10, 91);"><b><u>Internships</u></b></h2>
+          <p><b>An Internship enables you to gain first-hand exposure of working in the real world. It also allows 
+            students to harness the skill, knowledge and theoritical practice they learned in University.
+            An Internship can help to shape your career Trajectory, Expand your Professional networ and build your resume.
+            KIET provides a lot of opportunities to do Internships when you are in Graduation.</b></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="facts_images/training.jpg">
+        </div>
+        <div class="content">
+          <h2 style="color: rgb(219, 10, 91);"><b><u>Technology Training</u></b></h2>
+          <p><b>Technology is constantly updating at such a rapid pace that it seems it is might be faster than light.! 
+            Learning and enhancing your skills are vital in this technological era. 
+            Here is the list of top new and trending technologies: Artificial Intelligence,Machine learning Data Science, 
+            Robotics, Cloud etch., These technologies have the potential to bring the learning to the 
+            student. KIET provides special training on the new technologies that will help to student to grow their 
+            knowledge.</b></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="facts_images/abhiyaan.jpg">
+        </div>
+        <div class="content">
+          <h2 style="color: rgb(219, 10, 91);"><b><u>Abhiyaan</u></b></h2>
+          <p><b>We have all heard the saying "It takes 21 days to form a new Habit.." Abhiyaan is a 21-day program 
+            conducted every year especially for freshers to motivate their skills and knowledge and also to cheerup 
+            their upcoming four years journey with the college.so college came up with this program students should start 
+            doing to become better motivated, healthy, and successful durig the semester and years to come. 
+            These programs are adorable, fun, and relaxing!</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- Enquiry form module HTML Code -->
+<section class="admissions" id="admissions">
+<div class="bg">
+  <div class="container">
+    <div class="title">Enquiry Form</div>
+    <div class="content">
+      <form action="#Home">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Candidate Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type = "text" id="phone" name = "phn" placeholder="Enter Mobile" size = "10" pattern = "[0-9]{10}" title="Must contain 10 Numbers" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Date of Birth</span>
+            <input type="date" id="start" name="trip-start" required="true" 
+       value="yyyy-MM-dd"
+       min="1991-01-01" max="2010-12-31">
+          </div>
+          <div class="input-box">
+            <span class="details">Father's Name</span>
+            <input type="text" placeholder="Enter Father Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Mother's Name</span>
+            <input type="text" placeholder="Enter  Mother Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Occupation</span>
+            <input type="text" placeholder="Enter Occupation" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Category</span>
+            <input type="text" placeholder="OBC,SC,GEN,ST,OTHER" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Parent Number</span>
+            <input type = "text" id="fmphone" name = "fmphn" placeholder="Mobile" size = "10" pattern = "[0-9]{10}" title="Must contain 10 Numbers" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Application For</span>
+            <select name="course" id="course" required>
+            <option value = "" disabled selected hidden>Choose One</option>
+            <option value = "dip">Diploma</option>
+            <option value = "btech">BTECH</option>
+            <option value = "btechle">BTECH(le)</option>
+            <option value = "mtech">M.TECH</option>
+            <option value = "mba">MBA</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Branch Choice</span>
+            <select name="branch" id="branch" required>
+            <option value = "" disabled selected hidden>Choose One</option>
+            <option value = "dip">Artificial Intelligence</option>
+            <option value = "btech">Machine Learning</option>
+            <option value = "btechle">Cyber Security</option>
+            <option value = "mtech">Data Science</option>
+            <option value = "mba">Deep Learning</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">SSC</span>
+            <input type = "text" id="sscname" name = "sscname" placeholder="Enter School" size = "15" title="Give it correctly" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Passing Year</span>
+            <input type = "text" id="sscyear" name = "sscyear" placeholder="SSC Passing Year" size = "4" title="Give it correctly" pattern="[0-9]{4}" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Percentage</span>
+            <input type = "text" id="sscper" name = "sscper" placeholder="Enter SSC Percentage" size = "2" pattern = "[0-9]{2}" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Inter/Diploma</span>
+            <input type = "text" id="i/dname" name = "i/dname" placeholder="College Name" size = "15" title="Give it correctly If not did Enter NA" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Passing Year</span>
+            <input type = "text" id="year" name = "year" placeholder="Passing Year" size = "4" title="Give it correctly" pattern="[0-9]{4}">
+          </div>
+          <div class="input-box">
+            <span class="details">Percentage</span>
+            <input type = "text" id="i/dper" name = "i/dper" placeholder="Inter / Diploma" size = "3" pattern = "[0-9]{2,3}">
+          </div>
+          <div class="input-box">
+            <span class="details">B.Tech</span>
+            <input type = "text" id="i/dname" name = "i/dname" placeholder="College Name" size = "15" title="Give it correctly If not did Enter NA" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Branch</span>
+            <input type = "text" id="branch" name = "branch" placeholder="Branch" size = "15" title="Give it correctly If not did Enter NA">
+          </div>
+          <div class="input-box">
+            <span class="details">Passing Year</span>
+            <input type = "text" id="year" name = "year" placeholder="B.Tech Passing Year" size = "4" title="Give it correctly" pattern="[0-9]{4}">
+          </div>
+          <div class="input-box">
+            <span class="details">Percentage</span>
+            <input type = "text" id="btechp" name = "btechp" placeholder="B.Tech Percentage" size = "3" pattern = "[0-9]{2,3}">
+          </div>
+          <div class="input-box">
+            <span class="details">M.Tech</span>
+            <input type = "text" id="i/dname" name = "i/dname" placeholder="College Name" size = "15" title="Give it correctly If not did Enter NA" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Branch</span>
+            <input type = "text" id="branch" name = "branch" placeholder="M.Tech Branch" size = "15" title="Give it correctly If not did Enter NA">
+          </div>
+          <div class="input-box">
+            <span class="details">Passing Year</span>
+            <input type = "text" id="year" name = "year" placeholder="M.Tech Passing Year" size = "4" title="Give it correctly" pattern="[0-9]{4}">
+          </div>
+          <div class="input-box">
+            <span class="details">Percentage</span>
+            <input type = "text" id="mtechp" name = "mtechp" placeholder="M.Tech Percentage" size = "3" pattern = "[0-9]{2,3}">
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" name="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- After Filling Enquiry Form data has to be stored in google sheets.. -->
+
+  <script>
+  //script Url will be found in the online google sheet -> write script -> run and then deploy  
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxk4q2cqoGmhDcGwn1Um5sPB8YG1vUbfcUvKpMIkkm8sXIPhvyDFQmyVJf9RDJGR1H-tQ/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+      document.querySelector("form").reset();
+
+    })
+  </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</section>
+
+<!-- Interaction Module HTML Code -->
+
+<section class="interactions" id="interactions">
+  <center>
+    <form name="myForm" action="video_call.html" onsubmit="return idcheck()">
+      <h1 style="color:#f62459"> Interaction With KIET </h1><br>
+      <h5 style="color:#f03434;">"If you are not willing to learn, no one can help you. <br>If you are determined to learn, no one can stop you..!"</h5>
+      <h4 style="color: white;">Room Id: &nbsp&nbsp&nbsp 
+      <input type="text" name="rid" id="rid" placeholder="Enter Your Room Id" required="true">
+      &nbsp&nbsp&nbsp 
+      <button class="nxt-btn">Next</button></a>
+      </h4>
+    </form>
+</center>
+    <br>
+    <hr>
+    <br>
+    <div class="videos" id="videos">
+    
+        <iframe width="395" height="315" src="Interaction/video1.mp4"> </iframe>
+    </div>
+    <div class="videos" id="videos">
+    
+        <iframe width="395" height="315" src="Interaction/video2.mp4"> </iframe>
+    </div>
+    <div class="videos" id="videos">
+    
+        <iframe width="390" height="315" src="Interaction/video3.mp4"> </iframe>
+    </div>
+    
+</section>
+
+<!-- Interaction Script -->
+
+<script>
+  
+  function idcheck(){
+
+     let id = document.forms["myForm"]["rid"].value;
+     if(id == 1208){
+     socket.on('create', function (room) {
+      socket.join(room);
+      });
+  } else{
+    alert("Invalid Id.. Please enter correct Id to join..!");
+    return false;
+  }
+  
+}
+</script>
+
+<!-- Approach Us code -->
+<section class="footer" id="footer">
+  <footer>
+    <div class="contact-in" style="display: flex; height: 620px">
+      <div class="contact-map" style="width: 50%;">
+        <h1><b>Enroute To Your Success</b></h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.3318972775696!2d82.23689481481783!3d16.80988308842723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38205e52dbce3d%3A0x794aa1538de4100f!2sKiet%20College!5e0!3m2!1sen!2sin!4v1626524484655!5m2!1sen!2sin" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="contact-text" style="flex-grow: 1;">
+        <h1><b>Approach Us</b></h1>
+        <h2><i class="fa fa-map-marker-alt" aria-hidden="true"></i> &nbsp; Address</h2>
+        <p>&nbsp;KIET College, KIET College Road, Korangi, Andhra Pradesh.</p>
+        <h2><i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp; Contact Us</h2>
+        <P>&nbsp;+91 9849588266<br>+91 9492168458</P>
+        <h2><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; E-Mail</h2>
+        <P> &nbsp; kietgroup@gmail.com</P>
+      </div>
+    </div>
+  </footer>
+</section>
+<!-- approach us code end-->
+
+<!-- chatbot code-->
+  <!--indicator message and chat icon code starts here -->
+  <input type="checkbox" id="click">
+  <label for="click">
+    <div class="default-chatbot-indicator" style="display:block;">
+      <div id="ChatIndicator">
+        <div class="indicator">
+          <div>Hey ! I am Bot... Your Admission Assistant.</div>
+        </div>
+      </div>
+      <div id="chatIcon" data-toggle="tooltip"
+        data-placement="bottom" data-container="body" title="bot">
+        <img src="https://maxcdn.icons8.com/iOS7/PNG/512/Logos/facebook_messenger-512.png"> 
+      </div>
+    </div>
+  </label>
+  <!-- indicator message and chat icon code ends here -->
+
+  <!-- Chatbox wrapper strcuture code starts here -->
+  <div class="wrapper">
+    <div class="head-text"> Shoot your Queries..?! </div>    <!-- chatbot header -->
+    <!-- box form code starts here -->
+    <div class="chat-box">
+      <div class="form">
+        <div class="field">
+          <div class="desc-text ">Please Fill the form to chat with us.!</div>
+          <input type="text" placeholder="First Name">
+        </div>
+        <div class="field">
+          <input type="text" placeholder="Last Name">
+        </div>
+        <div class="field">
+          <input type="email" placeholder="E-mail Address">
+        </div>
+        <div class="field">
+          <button onclick="onClickStartChat()" type="submit"> Start Chat ..</button>
+        </div>
+    <!-- box form code ends here -->
+
+        <!--messaging-->
+        <div class="chat-screen">
+          <div id="chatbody" class="chat-body hide">
+            <div class="chat-start" id="date"></div>
+            <div class="chat-bubble you" id="botstarterMessage">Hello .. How can i help you ?</div>
+            <div id="chat-box-bottom">
+              <p></p>
+            </div>
+          </div>  <!--chatbody hide div closed here -->
+          <div class="chat-input hide">
+            <input class="msger-input" id="textInput" type="text" placeholder="Tap enter to send a message..">
+              <div class="input-action-icon">
+                  <button id="mic"><img src="chatbot_icons/microphone_icon-icons.com_72310.png" width="23" height="23" viewBox="0 0 14 14" fill="none"> </button>
+              </div> <!--input action icon div closed here -->
+          </div> <!-- chat input div closed here -->
+        </div> <!--chat screen div closed here -->
+      </div> <!--form div closed here -->
+    </div>  <!--chatbox div closed here -->
+  </div>  <!--Wrapper div closed here -->
+
+
+  <!-- chatbot java script code -->
+
+  <!-- code for getting day and date -->
+
+  <script type="text/javascript">
+    var today = new Date();
+    var day = today.getDay();
+    var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    hours=today.getHours();
+    minutes=today.getMinutes();
+    if(minutes< 10){
+      minutes = "0" + minutes;
+    }
+    let time = hours + ":" + minutes
+    var dateTime = time;
+     
+    document.getElementById("date").innerHTML = daylist[day]  + ' '+ dateTime;
+   
+  </script>
+
+  <!-- code for display indicator msg for particular time -->
+  <script>
+    setTimeout(()=> {
+      document.getElementsByClassName('indicator')[0].style.display = "none";
+    }, 10000);
+
+    /* code for onclick */
+
+    onClickStartChat = () => {
+      
+      var chatEl = document.getElementsByClassName("chat-body");
+      chatEl[0].classList.remove("hide");
+      var inpEl = document.getElementsByClassName("chat-input");
+      inpEl[0].classList.remove("hide");
+      var fieldEl = document.getElementsByClassName("field");
+      for(var i=0; i<fieldEl.length; i++) {
+        fieldEl[i].classList.add("hide");
+      }
+    }
+  </script>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+  crossorigin="anonymous"></script>
+  <script src="chatbot_scripts/script.js"></script>
+
+  <!-- java script link file for text chat -->
+  <script src="chatbot_scripts/chatmsg.js"></script>
+  <script src="chatbot_scripts/text_responses.js"></script>
+
+
+  <!-- java script link file for voice chat -->
+
+  <script src="chatbot_scripts/voicebot.js"></script>
+</body>
+</html>
+
